@@ -1,14 +1,11 @@
 
-import './App.css'
-
-function App() {
+export function App() {
 
 
   return (
-    <>
-    <h1>Teste</h1>
-    </>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   )
 }
 
-export default App
